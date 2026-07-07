@@ -1,0 +1,15 @@
+{
+  "project_id": "proj_7a6e8710",
+  "server_url": "http://localhost:5000",
+  "score_threshold": 6.0,
+  "protected_branches": [
+    "main",
+    "develop",
+    "uat"
+  ],
+  "wip_patterns": [
+    "WIP:",
+    "[WIP]",
+    "DRAFT:"
+  ]
+}
