@@ -1,7 +1,7 @@
 {
-  "project_id": "proj_7a6e8710",
+  "project_id": "proj_83b1c87c",
   "server_url": "https://interrelated-berna-inapprehensible.ngrok-free.dev",
-  "score_threshold": 6.0,
+  "score_threshold": 8.0,
   "protected_branches": [
     "main",
     "develop",
