@@ -54,6 +54,7 @@ async function main() {
   console.log(`\nCRA: Connecting to project ${config.project_id} ...`);
   try {
     await installHook('pre-commit', '/hooks/pre-commit');
+    await installHook('commit-msg', '/hooks/commit-msg');
     await installHook('pre-push',   '/hooks/pre-push');
 
     const localCheck = await fetch(`${SERVER}/hooks/local-check`);
